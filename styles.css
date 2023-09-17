@@ -1,0 +1,42 @@
+body{
+    background-image: url("sr.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 450px;
+    width: 350px;
+    margin: auto;
+    background-color: #141418;
+    box-shadow: rgb(0, 0, 0)0px 1px 2px, rgb(0, 0, 0) 0px 1px 6px;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    font-size: large;
+    background-color: #72e95f;
+    border: solid black 2px;
+    color: black;
+    border-radius: 7px;
+    width: 98%;
+    height: 75%;
+}
+#btn {
+    background-color: #16095f;
+}
+
+input[type=button] {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: #464646;
+    color: white;
+    border: solid black 2px;
+    width: 90px;
+    border-radius: 5px;
+    height: 80%;
+    outline: none;
+}
